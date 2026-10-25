@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio — CV Cahaya Mustika</title>
+    <meta name="description" content="Portofolio penerapan digital signage CV Cahaya Mustika untuk retail, perkantoran, pendidikan, rumah sakit, dan ruang publik.">
+    <meta name="theme-color" content="#1B3FA0">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <script>document.documentElement.classList.add('js');</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+<header id="header" class="header">
+    <div class="container nav-container">
+        <a href="index.html" class="logo-brand" aria-label="CV Cahaya Mustika">
+            <img src="assets/logo.png" alt="CV Cahaya Mustika - Office Equipment Center">
+        </a>
+        <nav class="nav-menu" id="navMenu" aria-label="Navigasi utama">
+            <ul class="nav-list"><li><a href="index.html" class="nav-link">Beranda</a></li><li class="nav-item has-dropdown"><a href="produk.html" class="nav-link nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">Produk <span class="dd-caret" aria-hidden="true"></span></a><ul class="dropdown-menu" role="menu"><li role="none"><a role="menuitem" class="dropdown-link" href="produk.html?brand=samsung">Samsung</a></li><li role="none"><a role="menuitem" class="dropdown-link" href="produk.html?brand=lg">LG</a></li><li role="none"><a role="menuitem" class="dropdown-link" href="produk.html?brand=hikvision">Hikvision</a></li></ul></li><li><a href="portofolio.html" class="nav-link active">Portofolio</a></li><li><a href="artikel.html" class="nav-link">Artikel</a></li><li><a href="kontak.html" class="nav-link">Kontak Kami</a></li></ul>
+        </nav>
+        <div class="nav-action">
+            <a href="kontak.html" class="btn btn-primary btn-sm">Minta Penawaran</a>
+            <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+    <main>
+<section class="page-hero"><div class="container"><nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><i class="fa-solid fa-chevron-right"></i><span>Portofolio</span></nav><span class="eyebrow">Portofolio</span><h1>Portofolio <span class="accent">Digital Signage</span></h1><p>Penerapan digital signage untuk berbagai sektor beserta perangkat yang digunakan. Klik gambar untuk memperbesar.</p></div></section>
+        <section class="section">
+            <div class="container">
+                <!-- Untuk menambah project: salin satu blok <article class="pf-card ..."> di bawah, ganti gambar (assets/products/), kategori, judul, dan deskripsi. -->
+                <div class="pf-grid" id="pfGrid">
+                    <article class="pf-card  reveal" data-group="project"><div class="pf-img"><img src="assets/products/cover-mall.jpg" alt="LED Display Area Shopping Mall" loading="lazy" style="object-position:center"><span class="pf-chip">Retail & Mall</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>LED Display Area Shopping Mall</h3><p>Layar LED besar untuk promosi dan sambutan pengunjung pusat perbelanjaan.</p></div></article>
+<article class="pf-card  reveal" data-group="project"><div class="pf-img"><img src="assets/products/campus.jpg" alt="Outdoor Signage Area Kampus" loading="lazy" style="object-position:center"><span class="pf-chip">Pendidikan</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Outdoor Signage Area Kampus</h3><p>Totem informasi outdoor untuk pengumuman, acara, dan panduan pengunjung kampus.</p></div></article>
+<article class="pf-card  reveal" data-group="perangkat"><div class="pf-img"><img src="assets/products/samsung-hero.jpg" alt="Display Indoor 4K untuk Area Publik" loading="lazy" style="object-position:center"><span class="pf-chip">Perangkat</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Display Indoor 4K untuk Area Publik</h3><p>Display indoor resolusi 4K UHD dengan tampilan tajam dan warna kaya.</p></div></article>
+<article class="pf-card wide reveal" data-group="project"><div class="pf-img"><img src="assets/products/sol-corporate.jpg" alt="Digital Signage Kantor & Lobby Korporat" loading="lazy" style="object-position:center"><span class="pf-chip">Corporate & Office</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Digital Signage Kantor & Lobby Korporat</h3><p>Welcome screen dan informasi ruang meeting untuk kantor korporat.</p></div></article>
+<article class="pf-card wide reveal" data-group="project"><div class="pf-img"><img src="assets/products/sol-education.jpg" alt="Display Ruang Kelas & Jadwal Digital" loading="lazy" style="object-position:center"><span class="pf-chip">Pendidikan</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Display Ruang Kelas & Jadwal Digital</h3><p>Informasi akademik, jadwal, dan pengumuman kampus yang selalu terbarui.</p></div></article>
+<article class="pf-card wide reveal" data-group="project"><div class="pf-img"><img src="assets/products/sol-healthcare.jpg" alt="Informasi Pasien & Wayfinding Rumah Sakit" loading="lazy" style="object-position:center"><span class="pf-chip">Healthcare</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Informasi Pasien & Wayfinding Rumah Sakit</h3><p>Informasi antrean, petunjuk arah, dan komunikasi pasien yang jelas.</p></div></article>
+<article class="pf-card wide reveal" data-group="project"><div class="pf-img"><img src="assets/products/sol-public.jpg" alt="Information Display Ruang Publik" loading="lazy" style="object-position:center"><span class="pf-chip">Public Space</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Information Display Ruang Publik</h3><p>Panduan pengunjung dan pengumuman publik di area lobi dan ruang ramai.</p></div></article>
+<article class="pf-card  reveal" data-group="perangkat"><div class="pf-img"><img src="assets/products/lg-hero.jpg" alt="Display Electronic Signage Non-glare" loading="lazy" style="object-position:center"><span class="pf-chip">Perangkat</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Display Electronic Signage Non-glare</h3><p>Display 4K UHD dengan lapisan non-glare agar tetap jelas di ruang terang.</p></div></article>
+<article class="pf-card  reveal" data-group="perangkat"><div class="pf-img"><img src="assets/products/hikvision-hero.jpg" alt="Display Wall-Mount & Floor Standing" loading="lazy" style="object-position:center"><span class="pf-chip">Perangkat</span><span class="pf-zoom"><i class="fa-solid fa-expand"></i></span></div><div class="pf-body"><h3>Display Wall-Mount & Floor Standing</h3><p>Display ultra-slim dengan pilihan pemasangan di dinding maupun berdiri di lantai.</p></div></article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand"><img src="assets/logo-white.png" alt="CV Cahaya Mustika"><p>Pusat distributor perangkat Digital Signage dan Office Equipment profesional untuk solusi bisnis dan institusi modern.</p></div>
+            <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Beranda</a></li><li><a href="produk.html">Produk</a></li><li><a href="portofolio.html">Portofolio</a></li><li><a href="artikel.html">Artikel</a></li><li><a href="kontak.html">Kontak Kami</a></li></ul></div>
+            <div><h4>Produk</h4><ul class="footer-links"><li><a href="produk.html?kategori=indoor">Indoor Display</a></li><li><a href="produk.html?kategori=wall">Wall Mount &amp; Floor Standing</a></li><li><a href="produk.html">Katalog Lengkap</a></li><li><a href="portofolio.html">Portofolio Project</a></li></ul></div>
+            <div class="footer-contact"><h4>Kontak</h4>
+                <p><i class="fa-solid fa-location-dot"></i><span>Jl. Mayjend M.T. Haryono, Ruko Istana Dinoyo B11, Lowokwaru, Kota Malang 65145</span></p>
+                <p><i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><a href="https://wa.me/628113301819?text=Halo%20CV%20Cahaya%20Mustika%2C%20saya%20ingin%20konsultasi%20Digital%20Signage." target="_blank" rel="noopener" data-wa-number>+62 811-330-1819</a></span></p>
+            </div>
+        </div>
+        <div class="footer-bottom"><div class="container"><span>&copy; 2026 CV Cahaya Mustika. All Rights Reserved.</span><span>Office Equipment Center — Malang, Jawa Timur</span></div></div>
+    </footer>
+    <a href="https://wa.me/628113301819?text=Halo%20CV%20Cahaya%20Mustika%2C%20saya%20ingin%20konsultasi%20Digital%20Signage." target="_blank" rel="noopener" class="wa-float" aria-label="Chat WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+<div id="lightboxModal" class="lightbox">
+        <button class="close-lightbox" id="closeLightbox" aria-label="Tutup">&times;</button>
+        <button class="lb-nav lb-prev" id="lbPrev" aria-label="Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+        <img id="lightboxImg" src="" alt="">
+        <button class="lb-nav lb-next" id="lbNext" aria-label="Berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+        <div id="lightboxCaption" class="lightbox-caption"></div>
+        <div id="lightboxDesc" class="lightbox-desc"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
